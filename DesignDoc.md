@@ -7,41 +7,43 @@ Building, Unit, Tenant, Vendor, CashflowEvent, Asset(eg. stairs,roof etc..),bid
 ## Candidate Attributes and Methods
 ## Building:
 ### Attributes:
-ID, Address, Owner, DateAcquired, EstimateValue, AssessedValue, Expenses, Income, Current Net, Projected Net, Units
+    ID, Address, Owner, DateAcquired, EstimateValue, AssessedValue, Expenses, Income, Current Net, Projected Net, Units
 ### Methods:
-TODO
+    ShowLowPerformers(self):List<Units>
 ## Unit:
 ### Attributes:
-ID, Address, Tenants, Date Moved in, Status, Rent, Estimated Rent, LateFees, Maint Requests(include costs?), Net, Projected Net, Floor
+    ID, Address, Tenants, Date Moved in, Status, Rent, Estimated Rent, LateFees, Maint Requests(include costs?), Net, Projected Net, Floor
 ### Methods:
-TODO
+    TODO
 ## Tenant:
 ### Attributes:
-Name, Age(this class may be unneded)
+    Name, Age(this class may be unneded)
 ### Methods:
-TODO
+    TODO
 ## Vendor:
 ### Attributes:
-Name, Type, Jobs completed, Costs, current jobs, bids, estimableprice, minor strikes, major strikes
+    Name, Type, Jobs completed, Costs, current jobs, bids, estimableprice, minor strikes, major strikes
 ### Methods:
-TODO
+    TODO
 ## IncomeEvent:
 ### Attributes:
-Type, date, ammount, status
+    Type, date, ammount, status
 ### Methods:
-TODO
+    TODO
 ## ExpenseEvent:
 ### Attributes:
-Type, date, amount, status, expected payback period, expected ROI
+    Type, date, amount, status, expected payback period, expected ROI
 ### Methods:
-TODO
+    HelpMeApprove
+    ShowVendors
+    ShowPreviousBids
 ## Asset:
 ### Attributes:
-Name, Value, age, cashflowEvents, Net
+    Name, Value, age, cashflowEvents, Net
 ### Methods:
-TODO
+    ShowTimeline
 ## bid:
 ### Attributes:
-Vendor, Type, amount.
+    Vendor, Type, amount.
 ### Methods:
-TODO
+    ShowVender
