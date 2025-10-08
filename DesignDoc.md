@@ -4,20 +4,44 @@ The problem that I have seen is that property managment dashboards often show th
 ## Candidate Classes
 Building, Unit, Tenant, Vendor, CashflowEvent, Asset(eg. stairs,roof etc..),bid
 
-## Candidate Attributes
-#### Building:
+## Candidate Attributes and Methods
+## Building:
+### Attributes:
 ID, Address, Owner, DateAcquired, EstimateValue, AssessedValue, Expenses, Income, Current Net, Projected Net, Units
-#### Unit:
+### Methods:
+TODO
+## Unit:
+### Attributes:
 ID, Address, Tenants, Date Moved in, Status, Rent, Estimated Rent, LateFees, Maint Requests(include costs?), Net, Projected Net, Floor
-#### Tenant:
+### Methods:
+TODO
+## Tenant:
+### Attributes:
 Name, Age(this class may be unneded)
-#### Vendor:
+### Methods:
+TODO
+## Vendor:
+### Attributes:
 Name, Type, Jobs completed, Costs, current jobs, bids, estimableprice, minor strikes, major strikes
-#### IncomeEvent
+### Methods:
+TODO
+## IncomeEvent:
+### Attributes:
 Type, date, ammount, status
-#### ExpenseEvent
+### Methods:
+TODO
+## ExpenseEvent:
+### Attributes:
 Type, date, amount, status, expected payback period, expected ROI
-#### Asset
+### Methods:
+TODO
+## Asset:
+### Attributes:
 Name, Value, age, cashflowEvents, Net
-#### bid
+### Methods:
+TODO
+## bid:
+### Attributes:
 Vendor, Type, amount.
+### Methods:
+TODO
